@@ -1,9 +1,12 @@
 <?php
 
+
 namespace App\Models;
+
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+
 
 class TransaksiSensor extends Model
 {
@@ -16,6 +19,7 @@ class TransaksiSensor extends Model
      */
     protected $table = 'transaksi_sensor';
 
+
     /**
      * The attributes that are mass assignable.
      *
@@ -27,12 +31,14 @@ class TransaksiSensor extends Model
         'nilai2',
     ];
 
+
     /**
      * The attributes that should be hidden for arrays.
      *
      * @var array
      */
     protected $hidden = [];
+
 
     /**
      * The attributes that should be cast.
